@@ -1,0 +1,16 @@
+﻿Build started 06/01/2016 11:25:52 PM.
+     1>Project "C:\Users\User\documents\visual studio 2013\Projects\QuakeAnalytics\QuakeAnalytics\QuakeAnalytics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\quakeanalytics\quakeanalytics\source.cpp(418): warning C4101: 'z' : unreferenced local variable
+     1>c:\users\user\documents\visual studio 2013\projects\quakeanalytics\quakeanalytics\source.cpp(703): warning C4101: 'z' : unreferenced local variable
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\documents\visual studio 2013\Projects\QuakeAnalytics\Debug\QuakeAnalytics.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\documents\visual studio 2013\Projects\QuakeAnalytics\Debug\QuakeAnalytics.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\documents\visual studio 2013\Projects\QuakeAnalytics\Debug\QuakeAnalytics.lib" /MACHINE:X86 Debug\Source.obj
+         QuakeAnalytics.vcxproj -> C:\Users\User\documents\visual studio 2013\Projects\QuakeAnalytics\Debug\QuakeAnalytics.exe
+     1>Done Building Project "C:\Users\User\documents\visual studio 2013\Projects\QuakeAnalytics\QuakeAnalytics\QuakeAnalytics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
